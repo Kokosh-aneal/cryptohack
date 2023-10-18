@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cryptohack:
+    container_name: cryptohack
+    image: hyperreality/cryptohack:latest
+    ports:
+      - "8888:8888"
