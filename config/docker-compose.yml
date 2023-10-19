@@ -5,3 +5,10 @@ services:
     image: hyperreality/cryptohack:latest
     ports:
       - "8888:8888"
+    volumes:
+      - KRYS:/home/sage/KRYS
+volumes:
+  KRYS:
+    driver_opts:
+      uid: 1000
+      gid: 1000
